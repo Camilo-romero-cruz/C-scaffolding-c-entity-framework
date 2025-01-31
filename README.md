@@ -16,7 +16,7 @@ Aquí están los mismos comandos, organizados para .NET 8. Asegúrate de haber i
 
 #### 1. Conexión local
 ```bash
-dotnet ef dbcontext scaffold "Server=DESKTOP-E6U0JTE;Initial Catalog=loginNet8;Trusted_Connection=True;MultipleActiveResultSets=true;TrustServerCertificate=True" Microsoft.EntityFrameworkCore.SqlServer --output-dir Models/Local --context-dir Context
+Scaffold-DbContext "Server=DESKTOP-JEHSI9V;Database=DBAngular;Trusted_Connection=True;TrustServerCertificate=True;MultipleActiveResultSets=true" Microsoft.EntityFrameworkCore.SqlServer -OutPutDir Models
 ```
 
 #### 2. Conexión a base con tablas específicas
